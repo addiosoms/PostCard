@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DC736241A421B3700FA282F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC736231A421B3700FA282F /* AppDelegate.swift */; };
+		5DC736261A421B3700FA282F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC736251A421B3700FA282F /* ViewController.swift */; };
+		5DC736291A421B3700FA282F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC736271A421B3700FA282F /* Main.storyboard */; };
+		5DC7362B1A421B3700FA282F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC7362A1A421B3700FA282F /* Images.xcassets */; };
+		5DC7362E1A421B3700FA282F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC7362C1A421B3700FA282F /* LaunchScreen.xib */; };
+		5DC7363A1A421B3800FA282F /* PostCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC736391A421B3800FA282F /* PostCardTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DC736341A421B3800FA282F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DC736161A421B3700FA282F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DC7361D1A421B3700FA282F;
+			remoteInfo = PostCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DC7361E1A421B3700FA282F /* PostCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC736221A421B3700FA282F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC736231A421B3700FA282F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DC736251A421B3700FA282F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DC736281A421B3700FA282F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DC7362A1A421B3700FA282F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5DC7362D1A421B3700FA282F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5DC736331A421B3800FA282F /* PostCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC736381A421B3800FA282F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC736391A421B3800FA282F /* PostCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DC7361B1A421B3700FA282F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DC736301A421B3800FA282F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DC736151A421B3700FA282F = {
+			isa = PBXGroup;
+			children = (
+				5DC736201A421B3700FA282F /* PostCard */,
+				5DC736361A421B3800FA282F /* PostCardTests */,
+				5DC7361F1A421B3700FA282F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DC7361F1A421B3700FA282F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DC7361E1A421B3700FA282F /* PostCard.app */,
+				5DC736331A421B3800FA282F /* PostCardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DC736201A421B3700FA282F /* PostCard */ = {
+			isa = PBXGroup;
+			children = (
+				5DC736231A421B3700FA282F /* AppDelegate.swift */,
+				5DC736251A421B3700FA282F /* ViewController.swift */,
+				5DC736271A421B3700FA282F /* Main.storyboard */,
+				5DC7362A1A421B3700FA282F /* Images.xcassets */,
+				5DC7362C1A421B3700FA282F /* LaunchScreen.xib */,
+				5DC736211A421B3700FA282F /* Supporting Files */,
+			);
+			path = PostCard;
+			sourceTree = "<group>";
+		};
+		5DC736211A421B3700FA282F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DC736221A421B3700FA282F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DC736361A421B3800FA282F /* PostCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DC736391A421B3800FA282F /* PostCardTests.swift */,
+				5DC736371A421B3800FA282F /* Supporting Files */,
+			);
+			path = PostCardTests;
+			sourceTree = "<group>";
+		};
+		5DC736371A421B3800FA282F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DC736381A421B3800FA282F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DC7361D1A421B3700FA282F /* PostCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DC7363D1A421B3800FA282F /* Build configuration list for PBXNativeTarget "PostCard" */;
+			buildPhases = (
+				5DC7361A1A421B3700FA282F /* Sources */,
+				5DC7361B1A421B3700FA282F /* Frameworks */,
+				5DC7361C1A421B3700FA282F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostCard;
+			productName = PostCard;
+			productReference = 5DC7361E1A421B3700FA282F /* PostCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DC736321A421B3800FA282F /* PostCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DC736401A421B3800FA282F /* Build configuration list for PBXNativeTarget "PostCardTests" */;
+			buildPhases = (
+				5DC7362F1A421B3800FA282F /* Sources */,
+				5DC736301A421B3800FA282F /* Frameworks */,
+				5DC736311A421B3800FA282F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DC736351A421B3800FA282F /* PBXTargetDependency */,
+			);
+			name = PostCardTests;
+			productName = PostCardTests;
+			productReference = 5DC736331A421B3800FA282F /* PostCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DC736161A421B3700FA282F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = addiosoms;
+				TargetAttributes = {
+					5DC7361D1A421B3700FA282F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5DC736321A421B3800FA282F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 5DC7361D1A421B3700FA282F;
+					};
+				};
+			};
+			buildConfigurationList = 5DC736191A421B3700FA282F /* Build configuration list for PBXProject "PostCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DC736151A421B3700FA282F;
+			productRefGroup = 5DC7361F1A421B3700FA282F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DC7361D1A421B3700FA282F /* PostCard */,
+				5DC736321A421B3800FA282F /* PostCardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DC7361C1A421B3700FA282F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC736291A421B3700FA282F /* Main.storyboard in Resources */,
+				5DC7362E1A421B3700FA282F /* LaunchScreen.xib in Resources */,
+				5DC7362B1A421B3700FA282F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DC736311A421B3800FA282F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DC7361A1A421B3700FA282F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC736261A421B3700FA282F /* ViewController.swift in Sources */,
+				5DC736241A421B3700FA282F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DC7362F1A421B3800FA282F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC7363A1A421B3800FA282F /* PostCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DC736351A421B3800FA282F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DC7361D1A421B3700FA282F /* PostCard */;
+			targetProxy = 5DC736341A421B3800FA282F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DC736271A421B3700FA282F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DC736281A421B3700FA282F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DC7362C1A421B3700FA282F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DC7362D1A421B3700FA282F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DC7363B1A421B3800FA282F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DC7363C1A421B3800FA282F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DC7363E1A421B3800FA282F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PostCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DC7363F1A421B3800FA282F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PostCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5DC736411A421B3800FA282F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PostCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostCard.app/PostCard";
+			};
+			name = Debug;
+		};
+		5DC736421A421B3800FA282F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PostCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostCard.app/PostCard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DC736191A421B3700FA282F /* Build configuration list for PBXProject "PostCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC7363B1A421B3800FA282F /* Debug */,
+				5DC7363C1A421B3800FA282F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DC7363D1A421B3800FA282F /* Build configuration list for PBXNativeTarget "PostCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC7363E1A421B3800FA282F /* Debug */,
+				5DC7363F1A421B3800FA282F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DC736401A421B3800FA282F /* Build configuration list for PBXNativeTarget "PostCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC736411A421B3800FA282F /* Debug */,
+				5DC736421A421B3800FA282F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DC736161A421B3700FA282F /* Project object */;
+}
